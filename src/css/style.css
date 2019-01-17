@@ -1,0 +1,20 @@
+
+
+body {
+    background: pink
+}
+
+h1 {
+    color: green;
+    font-family: "Courier New";
+}
+
+main {
+    background: green;
+    margin: 10%;
+}
+
+article {
+    border: solid gray 2px;
+    background: yellow;
+}
