@@ -1,20 +1,59 @@
 
 
 body {
-    background: pink
+    background: #99c24d
 }
 
 h1 {
     color: green;
     font-family: "Courier New";
+    font-size: 66px;
 }
 
 main {
-    background: green;
-    margin: 10%;
+    background: purple;
+    margin: 5%;
 }
 
-article {
-    border: solid gray 2px;
-    background: yellow;
+main > .blog > article > h3 {
+    font-family: Courier;
+    color: rgb(2, 2, 107);
+    font-size: 1.5em;
+    text-align: center
+}
+
+h3 {
+    text-align: end !important;
+}
+
+.blog:nth-of-type(odd){
+    border: solid #2e4057 3px;
+    background: #048ba8;
+    font-family: "Verdana";
+}
+
+article:nth-of-type(even){
+    border: solid #2e4057 3px;
+    background: #f18101;
+    font-family: "Verdana";
+}
+
+article:hover {
+    border: solid purple 8px;
+}
+
+p:hover:first-letter {
+    color:purple
+}
+
+p:hover:first-letter {
+    font-family: "Courier New"
+}
+
+p:hover:first-letter {
+    font-size: 56px
+}
+
+.blog {
+    color: #2e4057
 }
