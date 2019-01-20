@@ -55,5 +55,18 @@ p:hover:first-letter {
 }
 
 .blog {
-    color: #2e4057
+    color: white
+}
+
+.meat > a { 
+    margin: 5%
+    height: 10%;
+    width: 15%;
+    color: #048ba8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 40px; 
+    border: 2px solid white;
 }
