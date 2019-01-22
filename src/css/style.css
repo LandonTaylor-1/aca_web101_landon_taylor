@@ -70,3 +70,9 @@ p:hover:first-letter {
     padding: 40px; 
     border: 2px solid white;
 }
+
+footer {
+    margin: 8%;
+    background-color: orange;
+    text-align: right;
+}
