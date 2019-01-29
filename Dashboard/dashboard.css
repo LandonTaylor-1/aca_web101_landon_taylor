@@ -1,0 +1,47 @@
+html {
+    background-image: url("landscape.jpg");
+    background-size: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#links {
+    grid-area: links;
+}
+
+#weather {
+    grid-area: weather;
+}
+
+#clock {
+    grid-area: clock;
+}
+
+#greeting {
+    grid-area: greeting;
+}
+
+#reminder {
+    grid-area: reminder;
+}
+
+#calculator {
+    grid-area: calculator;
+}
+
+#quote {
+    grid-area: quote;
+}
+
+#todo {
+    grid-area: todo;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "links  links   weather"
+        "clock  clock   clock"
+        "clock"
+        "quote"
+        "reminder";
+}

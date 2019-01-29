@@ -1,0 +1,120 @@
+html{
+    background-color: rgb(61,183,228);
+    font-family: 'Righteous', cursive;
+}
+
+header {
+    font-size: 1.5em;
+    text-align: center;
+    grid-area: header;
+    margin-right: 0%;
+}
+
+img {
+    width: 310px;;
+    grid-area: image;
+}
+
+main {
+    grid-area: main
+}
+
+.desktop_sider {
+    grid-area: aside;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+#boys {
+    border: 3px solid rgb(105,190,40);
+}
+
+#note {
+    border: 2px solid rgb(255,136,73);
+}
+
+#mobile {
+    background-color: rgb(105,190,40);
+    grid-area: mobile;
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+    padding: 10%;
+}
+
+footer {
+    background-color: rgb(255,136,73);
+    text-align: center;
+    grid-area: footer;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "image"
+        "main"
+        "aside"
+        "mobile"
+        "footer";
+    grid-gap: 10px;
+}
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+    img {
+        width: 550px;
+    }
+    .container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "header header"
+            "image  image"
+            "main   main"
+            "aside  mobile"
+            "footer footer";
+    }
+       
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+    img {
+        width: 500px;
+    }
+    #mobile {
+        display: none;
+    }
+    .container {
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas:
+            "header header"
+            "image   main"
+            "aside  aside"
+            "footer footer";
+    }
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+    img {
+        width: 650px;
+    }
+    #mobile {
+        display: none;
+    }
+    .container {
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-areas:
+            "header header  header"
+            "image   main    aside"
+            "footer footer  footer";
+    }
+
