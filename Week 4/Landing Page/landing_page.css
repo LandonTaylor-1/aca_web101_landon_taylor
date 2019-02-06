@@ -1,0 +1,260 @@
+html {
+    background-color: rgb(218, 218, 218);
+}
+
+.header{ 
+    background-color: rgb(52, 143, 155);
+    margin-top: 50px;
+    margin-bottom: 75px;
+    height: 130px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.title {
+    background-color: rgb(2, 22, 78);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    height: 100px;
+    width: 300px;
+    padding: 0px;
+    margin-left: 0px;
+    position: relative;
+    bottom: -20px;
+}
+
+.nav {
+    display: flex;
+}
+
+.list {
+    background-color: rgb(2, 22, 78);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    width: 120px;
+    height: 40px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.curl {
+    width: 600px;
+    height: 400px;
+}
+
+.curly {
+    border: 3px solid rgb(73, 183, 197);
+    border-radius: 5px;
+    background-color: white;
+    width: 1000px;
+    height: 400px;
+    font-size: 2em;
+    grid-area: curly;
+    display: flex;
+    align-items: center;
+}
+
+.pic {
+    border: 6px solid rgb(73, 183, 197);
+    border-radius: 5px;
+}
+
+article {
+    padding: 0px;
+    width: 210px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 995px;
+}
+
+.bot {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom {
+    display: grid;
+    grid-auto-columns: 2(1fr);
+    grid-template-areas:
+        "featured   hairstyles"
+        "featured   hairloss";
+}
+
+.bottom {
+    width: 1000px;
+}
+
+.footbox {
+    background-color: rgb(2, 22, 78);
+    color: white;
+    width: 200px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+}
+
+.featured {
+    border: 5px solid rgb(73, 183, 197);
+    border-radius: 5px;
+    background-color: white;
+    width: 450px;
+    height: 700px;
+    grid-area: featured;
+}
+
+.featured > h2 {
+    text-align: center;
+}
+
+.featured > p {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 30px;
+}
+
+.featured > img {
+    padding: 10px;
+}
+
+.hairstyles {
+    border: 5px solid rgb(73, 183, 197);
+    border-radius: 5px;
+    background-color: rgb(52, 143, 155);
+    color: white;
+    width: 450px;
+    height: 300px;
+    grid-area: hairstyles;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 30px;
+}
+
+.hairstyles > h3 {
+    text-align: right;
+}
+
+.hairloss {
+    border: 5px solid rgb(73, 183, 197);
+    border-radius: 5px;
+    background-color: rgb(52, 143, 155);
+    color: white;
+    width: 450px;
+    height: 220px;
+    grid-area: hairloss;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+@media (max-width: 575px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 1000px;
+    }
+
+    .title {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .header{ 
+        background-color: rgb(52, 143, 155);
+        margin-top: 50px;
+        margin-bottom: 75px;
+        height: 300px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .curl {
+        width: 310px;
+        height: 200px;
+    }
+    
+    .curly {
+        border: 3px solid rgb(73, 183, 197);
+        border-radius: 5px;
+        background-color: white;
+        width: 310px;
+        height: 300px;
+        font-size: 2em;
+        grid-area: curly;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .section {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 310px;
+    }
+
+    .bot {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+   
