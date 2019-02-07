@@ -5,7 +5,7 @@ body {
 
 main {
     height: 450px;
-    background-image: url(hubble_black_hole.jpg);
+    background-image: url(images/hubble_black_hole.jpg);
     color: white;
     display: grid;
     font-family: Arial, Helvetica, sans-serif;
