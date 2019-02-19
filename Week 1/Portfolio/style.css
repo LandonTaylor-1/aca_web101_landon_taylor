@@ -15,6 +15,7 @@ header {
   display: grid;
   grid-template-columns: 40% 60%;
   width: 100%;
+  height: 150px;
 }
 
 main {
@@ -42,7 +43,7 @@ nav > a {
   border-radius: 25px;
   border: 6px solid #0795C3;
   background: none;
-  padding: 20px; 
+  padding: 20px;
 }
 
 nav {
@@ -57,6 +58,21 @@ nav {
   border-radius: 50%;
   margin: 15% auto;
   grid-column: 2/3;
+  z-index: 1;
+}
+
+.welcome {
+  animation-name: move;
+  position: relative;
+  animation: move 4s 1;
+  height: 10px;
+  top: -200px;
+}
+
+@keyframes move {
+  0% {top: -200p;}
+  50% {top: 0px;}
+  100%  {top: -200px;}
 }
 
 h1 {
@@ -64,7 +80,7 @@ h1 {
   grid-column: 2/3;
   margin: 3% auto;
   border-bottom: 2px solid #1940A9;
-  font-size: 3em;
+  font-size: 3em; 
 }
 
 h2 {
