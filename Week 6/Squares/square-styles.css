@@ -1,0 +1,48 @@
+.whole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    width: 100px;
+}
+
+.odd {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    margin: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.even {
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+    margin: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.whole:hover div:nth-child(odd){
+    position: relative;
+    background-color: turquoise;
+    transform: translate(100px) rotate(720deg) scale(2,2);
+}
+
+.whole:hover div:nth-child(even){
+    position: relative;
+    background-color: orange;
+    transform: translate(-100px) rotate(360deg) scale(.5,.5);
+}
+
+/*
+@keyframes move {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes moves {
+    from {right: 0px;}
+    to {right: 200px;}
+}*/
+
