@@ -12,7 +12,7 @@
     width: 50px;
     background-color: yellow;
     margin: 10px;
-    transition: all 1s ease-in-out;
+    transition: all 3s ease-in-out;
 }
 
 .even {
@@ -32,7 +32,7 @@
 .whole:hover div:nth-child(even){
     position: relative;
     background-color: orange;
-    transform: translate(-100px) rotate(360deg) scale(.5,.5);
+    transform: translate(-100px) rotate(-360deg) scale(.5,.5);
 }
 
 /*
