@@ -1,0 +1,192 @@
+header {
+    background-color: turquoise;
+}
+
+.portfolio {
+    border: 5px solid rgb(253, 104, 50);
+    transition: all 2s ease-in-out;
+    width: 200px;
+    font-family: 'Coiny', cursive;
+    color: rgb(253, 104, 50);
+    text-align: center;
+    transform: translate(100px, 50px) rotate(720deg);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.link {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.welcome {
+    font-family: 'Coiny', cursive;
+    font-size: 32px;
+    background-color: turquoise;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+h1 {
+    transition: all 2s ease-in-out;
+}
+
+h1:hover {
+    color: purple;
+}
+
+.articles {
+    background-color: black;
+    color: white;
+    font-family: 'Sacramento', cursive;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 450px;
+}
+
+.articles > a > article > h2 {
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.articles > a > article > p {
+    text-align: center;
+    color: white;
+}
+
+.one {
+    width: 300px;
+    border-top: 30px solid rgb(64, 173, 224);
+    transition: all 1s ease-in-out;
+}
+
+.one:hover {
+    transform: translate(-30px) scale(1.2);
+}
+
+.two {
+    width: 300px;
+    border-top: 30px solid rgb(253, 104, 50);
+    transition: all 1s ease-in-out;
+}
+
+.two:hover {
+    transform: translate(0px, -30px) scale(1.2);
+}
+
+.three {
+    width: 300px;
+    border-top: 30px solid turquoise;
+    transition: all 1s ease-in-out;
+}
+
+.three:hover {
+    transform: translate(30px) scale(1.2);
+}
+
+@media (max-width: 574px) {
+
+    header {
+        background-color: rgb(64, 173, 224);
+    }
+
+    .portfolio {
+        border: 5px solid rgb(253, 104, 50);
+        transition: all 2s ease-in-out;
+        width: 200px;
+        font-family: 'Coiny', cursive;
+        color: rgb(253, 104, 50);
+        text-align: center;
+        transform: translate(0px, 0px) rotate(720deg);
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding: 10px;
+    }
+
+    .link {
+        height: 25px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    .welcome {
+        background-color: rgb(64, 173, 224);
+        height: 250px;
+        font-size: 24px;
+    }
+
+    .welcome > h1 {
+        width: 300px;
+    }
+
+    .articles {
+        background-color: rgb(235, 233, 233);
+        color: black;
+        font-family: 'Sacramento', cursive;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 1200px;
+    }
+
+    .articles > a > article > h2 {
+        font-family: 'Orbitron', sans-serif;
+        display: flex;
+        justify-content: center;
+        color: black;
+    }
+    
+    .articles > a > article > p {
+        text-align: center;
+        color: black;
+    }
+
+    .one {
+        width: 200px;
+        border-top: 30px solid rgb(64, 173, 224);
+    }
+
+    .one:hover {
+        transform: translate(0px) scale(1.2);
+    }    
+    
+    .two {
+        width: 200px;
+        border-top: 30px solid rgb(253, 104, 50);
+    }
+
+    .two:hover {
+        transform: translate(0px) scale(1.2);
+    }  
+    
+    .three {
+        width: 200px;
+        border-top: 30px solid turquoise;
+    }
+
+    .three:hover {
+        transform: translate(0px) scale(1.2);
+    }  
+
+}

@@ -1,0 +1,150 @@
+header {
+    background-color: turquoise;
+}
+
+.portfolio {
+    border: 5px solid rgb(253, 104, 50);
+    transition: all 2s ease-in-out;
+    width: 200px;
+    font-family: 'Coiny', cursive;
+    color: rgb(253, 104, 50);
+    text-align: center;
+    transform: translate(100px, 50px) rotate(720deg);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.link {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.welcome {
+    font-family: 'Coiny', cursive;
+    font-size: 32px;
+    background-color: turquoise;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+h1 {
+    transition: all 2s ease-in-out;
+}
+
+h1:hover {
+    color: purple;
+}
+
+.placeholder {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 450px;
+}
+
+.one {
+    width: 533px;
+    border-top: 30px solid rgb(64, 173, 224);
+    padding: 30px;
+}
+
+iframe {
+    width: 533px;
+    height: 300px;
+}
+
+.two {
+    width: 533px;
+    border-top: 30px solid rgb(253, 104, 50);
+    padding: 30px;
+}
+
+video {
+    height: 300px;
+}
+
+@media (max-width: 574px) {
+
+    header {
+        background-color: rgb(64, 173, 224);
+    }
+
+    .portfolio {
+        border: 5px solid rgb(253, 104, 50);
+        transition: all 2s ease-in-out;
+        width: 200px;
+        font-family: 'Coiny', cursive;
+        color: rgb(253, 104, 50);
+        text-align: center;
+        transform: translate(0px, 0px) rotate(720deg);
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding: 10px;
+    }
+
+    .link {
+        height: 25px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    .welcome {
+        background-color: rgb(64, 173, 224);
+        height: 250px;
+        font-size: 24px;
+    }
+
+    .welcome > h1 {
+        width: 300px;
+    }
+
+    .placeholder {
+        background-color: rgb(235, 233, 233);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 800px;
+    }
+
+    .one {
+        width: 300px;
+        border-top: 30px solid rgb(64, 173, 224);
+        padding: 10px;
+        margin: 0px;
+    }
+
+    iframe {
+        width: 300px;
+    }
+    
+    .two {
+        width: 300px;
+        border-top: 30px solid rgb(253, 104, 50);
+        padding: 10px;
+    }
+    
+    video {
+        width: 300px;
+        height: auto;
+    }
+
+}
