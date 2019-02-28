@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(194, 194, 140);
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #list {
+    text-align: center;
+    margin-top: 300px;
+  }
+  
+  h1 {
+    color: white;
+    margin: 0px auto;
+    padding: 20px;
+    font-size: 3em;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    background-color: rgb(240, 119, 119);
+    color: #000;
+    font-size: 20px;
+    list-style-type: none;
+    width: 20%;
+    margin: 0px auto;
+    border-radius: 6px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .item {
+    background-color: rgb(240, 119, 119);
+    color: #000;
+  }
+  
+  input[type='text'] {
+    font-size: 14px;
+    padding: 6px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  
+  input[type='submit'] {
+    background-color: green;
+    color: #000;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    width: 50px;
+    height: 30px;
+  }
+  
+  #itemField {
+    margin-top: 60px;
+    width: 10%;
+  }

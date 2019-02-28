@@ -61,11 +61,6 @@ hr {
     padding-top: 125px;
 }
 
-p {
-    border: black 1px solid;
-    background-color: white;
-}
-
 .calculator {
     font-size: 62.5%;
     box-sizing: border-box;

@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Landon's Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="styles/dashboard.css"/>
-    <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
 <body class ="container">
@@ -62,11 +60,16 @@
             "The phrase "action speaks louder than words," is most easily proven by a swift kick to the genitals." -Devin J Monroe
         </div>
         <div id=todo>
-            <p>______________________</p>
-            <li>Meeting with the Bob's</li>
-            <li>TPS Reports</li>
-            <li>Fishing this Weekend</li>
+                <form id="newItemForm">
+                    <input type="text" id="itemField" placeholder="Item" />
+                    <input type="submit" id="add" value="add" />
+                </form>
+                <li>Meeting with the Bob's</li>
+                <li>TPS Reports</li>
+                <li>Fishing this Weekend</li>
         </div>
     </footer>
+    <script src="jquery.js"></script>
+    <script src="dashboard.js"></script>
 </body>
 </html>
