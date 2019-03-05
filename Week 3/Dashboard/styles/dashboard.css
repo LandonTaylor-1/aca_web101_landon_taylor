@@ -18,7 +18,11 @@ html {
 
 #weather {
     grid-area: weather;
-    text-align: end;
+    text-align: center;
+}
+
+.location > button {
+    height: 40px;
 }
 
 #clock_screen {
@@ -167,6 +171,10 @@ button:hover {
 .container_one {
     display: flex;
     justify-content: space-evenly;
+}
+
+.location > button {
+    height: 80px;
 }
 
 #clock_mobile {
