@@ -10,23 +10,20 @@
 </head>
 <body>
     <div class="tic">
-        <div class="tac">
-            <div id="top_left" onclick="top_left()"></div>
-            <div id="top_center" onclick="top_center()"></div>
-            <div id="top_right" onclick="top_right()"></div>
-            <div id="middle_left" onclick="middle_left()"></div>
-            <div id="middle_center" onclick="middle_center()"></div>
-            <div id="middle_right" onclick="middle_right()"></div>
-            <div id="bottom_left" onclick="bottom_left()"></div>
-            <div id="bottom_center" onclick="bottom_center()"></div>
-            <div id="bottom_right" onclick="bottom_right()"></div>
+        <div class="container" id="main">
+            <div class=box id="top_left"></div>
+            <div class=box id="top_center"></div>
+            <div class=box id="top_right"></div>
+            <div class=box id="middle_left"></div>
+            <div class=box id="middle_center"></div>
+            <div class=box id="middle_right"></div>
+            <div class=box id="bottom_left"></div>
+            <div class=box id="bottom_center"></div>
+            <div class=box id="bottom_right"></div>
         </div>
     </div>
     <div class="buttons">
-        <button class="x"
-        onclick="changeMarkerToX()">X</button>
-        <button class="o"
-        onclick="changeMarkerToO()">O</button>
+        <button id="reset" onclick="replay()">RESET</button>
     </div>
     <script src="tictactoe.js"></script>
 </body>
